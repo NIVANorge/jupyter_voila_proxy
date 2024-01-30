@@ -15,7 +15,6 @@ def setup_voila():
     def _voila_command():
         return [
             "voila",
-            "--token",
             "--no-browser",
             "--port",
             "{port}",
